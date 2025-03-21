@@ -1,6 +1,6 @@
 # Customer-Segmentation-Classification
 ## Overview
-Proyek ini bertujuan untuk memprediksi segmentasi pelanggan di pasar baru berdasarkan strategi segmentasi yang telah diterapkan oleh sebuah perusahaan otomotif di pasar sebelumnya. Perusahaan telah berhasil mengelompokkan pelanggan ke dalam empat segmen (A, B, C, D) dan ingin menerapkan pendekatan yang sama untuk 2.627 calon pelanggan baru.
+Proyek ini bertujuan untuk memprediksi segmentasi pelanggan di pasar baru berdasarkan strategi segmentasi yang telah diterapkan oleh sebuah perusahaan otomotif di pasar sebelumnya. Perusahaan telah berhasil mengelompokkan pelanggan ke dalam empat segmen (A, B, C, D) dan ingin menerapkan pendekatan yang sama untuk 2.627 calon pelanggan baru. Proyek ini akan membandingkan tiga algoritma klasifikasi untuk mencari model terbaik dalam mengklasifikasikan pelanggan.
 
 ## Dataset
 Dataset yang digunakan dalam proyek ini diperoleh dari Kaggle dengan judul "Customer Segmentation Classification", dan berisi berbagai informasi tentang pelanggan, termasuk:
@@ -35,3 +35,6 @@ Dilakukan proses pemodelan menggunakan tiga algoritma machine learning yang berb
 Setelah melakukan preprocessing dan menjalankan berbagai model, hasil klasifikasi menunjukkan bahwa performa model masih kurang optimal. Nilai F1-score yang diperoleh berada di bawah 50%, yang menunjukkan bahwa model belum dapat membedakan segmen pelanggan dengan baik. Walaupun pada visualisasi confussion matrix, model terlihat cukup baik dalam mengklasifikasikan dengan benar, namun jumlah kesalahan klasifikasi masih tergolong dalam angka yang cukup besar.
 
 Hal ini bisa disebabkan oleh beberapa faktor, seperti kurangnya fitur yang benar-benar dapat membedakan segmen pelanggan atau kompleksitas hubungan antara fitur yang belum ditangkap dengan baik oleh model yang digunakan.
+
+## Dashboard Analisis
+Untuk memahami karakteristik pelanggan dan hasil segmentasi, digunakan dashboard interaktif untuk memudahkan stakeholder dalam memahami hasil analisis dan kondisi pasar secara mudah. Dashboard tersebut dibuat dengan menggunakan aplikasi Looker Studio, dan menampilkan informasi berupa karakteristik pelanggan berdasarkan kategori tertentu, termasuk hasil segmentasi.
