@@ -36,5 +36,5 @@ Setelah melakukan preprocessing dan menjalankan berbagai model, hasil klasifikas
 
 Hal ini bisa disebabkan oleh beberapa faktor, seperti kurangnya fitur yang benar-benar dapat membedakan segmen pelanggan atau kompleksitas hubungan antara fitur yang belum ditangkap dengan baik oleh model yang digunakan.
 
-## Dashboard Analisis
+# Dashboard Analisis
 Untuk memahami karakteristik pelanggan dan hasil segmentasi, digunakan dashboard interaktif untuk memudahkan stakeholder dalam memahami hasil analisis dan kondisi pasar secara mudah. Dashboard tersebut dibuat dengan menggunakan aplikasi Looker Studio, dan menampilkan informasi berupa karakteristik pelanggan berdasarkan kategori tertentu, termasuk hasil segmentasi.
